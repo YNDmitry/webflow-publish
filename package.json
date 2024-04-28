@@ -1,0 +1,26 @@
+{
+  "name": "webflow-publish",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "publish": "/Users/macbookprom1/Documents/webflow-publish-plugin/dist/publish/publish ",
+    "lint": "eslint .",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "eslint": "^9.1.1",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "prettier": "^3.2.5",
+    "vite": "^5.2.0"
+  },
+  "config": {
+    "ghUserName": "YNDmitry",
+    "repositoryName": "webflow-publish",
+    "browser": "arc"
+  }
+}
