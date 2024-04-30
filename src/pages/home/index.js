@@ -1,4 +1,4 @@
 // Your code here
 export default function homePage() {
-	console.log('Hello World!')
+	console.log('Hello Worldd!')
 }
