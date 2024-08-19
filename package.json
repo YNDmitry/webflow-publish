@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "publish": "python3 /Users/macbookprom1/Documents/webflow-publish-plugin/publish-new.py ",
+    "publish": "python3 /Users/macbookprom1/Documents/webflow-publish-plugin/publish.py",
     "lint": "eslint .",
     "format": "prettier --write ."
   },
