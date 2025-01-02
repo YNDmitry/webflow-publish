@@ -1,0 +1,23 @@
+# EditorConfig helps maintain consistent coding styles across different editors and IDEs
+# More info: https://editorconfig.org
+
+root = true
+
+# Global settings for all files
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# Settings for JavaScript files
+[*.js]
+indent_style = tab
+indent_size = 2
+
+# Settings for TypeScript files (uncomment if needed)
+#[*.ts]
+#indent_style = tab
+#indent_size = 2
+
+# You can add more file type-specific settings below as needed
