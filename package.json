@@ -7,7 +7,7 @@
     "dev": "concurrently --raw -n \"vite\" \"wf-publish --env=dev --dev-port=5173\"",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "publish:global": "python3 /Users/macbookprom1/Documents/webflow-publish-plugin/main.py --env=prod",
+    "publish:global": "wf-publish --env=prod",
     "publish:pages": "wf-publish --env=prod --by-page",
     "lint": "eslint src/**/**/*.{js,ts}",
     "format": "prettier --write src/**/**/*.{js,ts}",
