@@ -1,5 +1,5 @@
 import homePage from './pages/home'
 
 document.addEventListener('DOMContentLoaded', function () {
-  homePage('yndmitry 2028')
+  homePage('yndmitry 2022')
 })
