@@ -5,9 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "concurrently --raw -n \"vite\" \"wf-publish --env=dev --dev-port=5173\"",
-    "build": "tsc && vite build",
+    "build": "vite build",
     "preview": "vite preview",
-    "publish:global": "wf-publish --env=prod",
+    "publish:global": " /Users/dmitry/Dev/wf-publish-plugin-node/dist/wf-publish publish",
     "publish:pages": "wf-publish --env=prod --by-page",
     "lint": "eslint src/**/**/*.{js,ts}",
     "format": "prettier --write src/**/**/*.{js,ts}",
