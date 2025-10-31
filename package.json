@@ -4,10 +4,10 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "concurrently --raw -n \"vite\" \"/Users/dmitry/Dev/wf-publish-plugin-node/dist/wf-publish publish --env=dev --dev-port=5173\"",
+    "dev": "wf-publish publish --env dev",
     "build": "vite build",
     "preview": "vite preview",
-    "publish:global": " /Users/dmitry/Dev/wf-publish-plugin-node/dist/wf-publish publish",
+    "publish:global": "wf-publish publish",
     "publish:pages": "wf-publish --env=prod --by-page",
     "lint": "eslint src/**/**/*.{js,ts}",
     "format": "prettier --write src/**/**/*.{js,ts}",
